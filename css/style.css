@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Titillium+Web:wght@400;700&display=swap');
 /* globol */
 html{
     box-sizing: border-box;
@@ -59,8 +60,8 @@ img{
     font-size: 14px;
     
 }
-.site-header {
-}
+/* .site-header {
+} */
 .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -83,8 +84,8 @@ img{
 .nav-info_item {
     margin-right: 20px;
 }
-.nav-info_link {
-}
+/* .nav-info_link {
+} */
 .nav-info_button {
     background: #F2F6FC;
     border: 0px;
@@ -96,4 +97,68 @@ img{
 .nav-menu_link:hover ,.nav-info_link:hover {
     color: #186FD4;
     
+}
+
+
+/* site-hiro */
+.hiro {
+    margin-top: -20px;
+}
+.site-hiro {
+}
+.site-hiro_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.site-hiro_item {
+}
+.site-hiro_link {
+}
+.site-hiro_log {
+    text-transform: uppercase;
+    line-height: 0px;
+    padding-bottom: 0;
+   font-family: "Titillium Web", sans-serif;
+    font-weight: 700; 
+    font-style: normal;
+    font-size: 30px;
+    color: #186FD4;
+    text-align:justify;
+}   
+.site-hiro_slogan {
+    line-height: 0px;
+    padding-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    color: #6C6F71;
+}
+.site-hiro_button {
+    border: 0;
+    border-radius: 5px;
+    background: #186FD4;
+    padding: 15px;
+    color: #fff;
+    align-self: center;
+}
+.site-hiro_button-img{
+    margin-right: 10px;
+}
+.global-search_form {
+}
+.global-search-form_input {
+}
+.global-search-form_button {
+}
+.site-hiro-menu_list {
+    display: flex;
+}
+.site-hiro-menu_item {
+}
+.site-hiro-menu_link {
+}
+.site-hiro-menu_icon {
 }
