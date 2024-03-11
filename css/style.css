@@ -143,22 +143,73 @@ img{
     padding: 15px;
     color: #fff;
     align-self: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .site-hiro_button-img{
     margin-right: 10px;
 }
 .global-search_form {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #186FD4;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+
 }
 .global-search-form_input {
+   width: 100%;
+   max-width: 500px;
+   padding: 10px;
+   outline: none;
+   border: none;
+   border-radius: 10px 10px  0px;
+   
 }
 .global-search-form_button {
+    border: 0;
+    background: #186FD4;
+    padding: 10px 15px;
 }
 .site-hiro-menu_list {
     display: flex;
+    
 }
 .site-hiro-menu_item {
+    display: flex;
 }
 .site-hiro-menu_link {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 15px;
+color: #6C6F71;
+}
+.site-hiro-menu_link  img{
+    width: 100%;
+    max-width: 20px;
+    height: 20px;
 }
 .site-hiro-menu_icon {
 }
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+   
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+   
+  .slide:first-child {
+    opacity: 1;
+  }
